@@ -1,130 +1,218 @@
 {
-  "FinalExam_User": [
+  "users": [
     {
-      "id": "947c",
-      "name": "purv",
-      "email": "purv@gmail.com",
-      "Admine_User": "Admine",
-      "password": "1234"
+      "id": "d99c",
+      "username": "purv4211@gmail.com",
+      "password": "1234",
+      "role": "user"
     },
     {
-      "id": "e23a",
-      "name": "milap",
-      "email": "milap@gmail.com",
-      "Admine_User": "User",
-      "password": "1234"
+      "id": "7401",
+      "username": "mialp@gmail.com",
+      "password": "1234",
+      "role": "admin"
     }
   ],
   "courses": [
     {
-      "name": "Learn Microsoft Flow",
-      "category": "Office Productivity",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjJK82QTB2ugHHyrIP-HtJ6K1MJ37Mt41q8Q&s",
-      "actual_price_usd": 0,
-      "sale_price_usd": 0,
-      "sale_end": "2024-07-24T08:01:51.161000",
-      "description": "Learn The Basics of Python From Scratch – Free Course",
-      "url": "https://www.udemy.com/course/pythonbasics/",
-      "clean_url": "https://www.udemy.com/course/pythonbasics/"
+      "id": "1",
+      "name": "English for Common Interactions in the Workplace: Basic Level",
+      "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/e7/b34332a4c9434aacd529defcf050da/00-coursera-logotipo.jpg?auto=format%2Ccompress%2C%20enhance&dpr=1&w=265&h=216&fit=crop&q=50",
+      "duration": "1 to 3 Months",
+      "price": 15900,
+      "seats": 100,
+      "topics": [
+        "Workplace Communication",
+        "Basic English"
+      ],
+      "subtopics": [
+        "Greetings",
+        "Daily Interactions"
+      ]
     },
     {
-      "name": "HTML 5",
-      "category": "IT & Software",
-      "image": "https://img-b.udemycdn.com/course/480x270/5009916_fc64.jpg",
-      "actual_price_usd": 19.99,
-      "sale_price_usd": 0,
-      "sale_end": "2024-07-24T09:12:00",
-      "description": "Python 3 : Learn HTML5 with Quizzes, Explore Python Basics and Advanced Concepts in a Comprehensive Python Course",
-      "url": "https://www.udemy.com/course/html-5-with-quizzes-and-python-3-complete-course-2023/?couponCode=064023571ED82669489F",
-      "clean_url": "https://www.udemy.com/course/html-5-with-quizzes-and-python-3-complete-course-2023/"
+      "id": "2",
+      "name": "Introduction to Microsoft Excel",
+      "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/64/4a8b13f0e64dbdb41d587c7cea1103/excel-logo-4-.png?auto=format%2Ccompress%2C%20enhance&dpr=1&w=265&h=216&fit=crop&q=50",
+      "duration": "1 to 2 Months",
+      "price": 12500,
+      "seats": 100,
+      "topics": [
+        "Excel Basics"
+      ],
+      "subtopics": [
+        "Formulas",
+        "Charts"
+      ]
     },
     {
-      "name": "Python for Data Science",
-      "category": "Development",
-      "image": "https://img-c.udemycdn.com/course/480x270/4656122_aa2f_2.jpg",
-      "actual_price_usd": 539.99,
-      "sale_price_usd": 0,
-      "sale_end": "2024-07-24T06:25:00",
-      "description": "Supercharge Your Data Science Skills with Exercises – Master NumPy and Pandas for Effective Data Analysis!",
-      "url": "https://www.udemy.com/course/python-for-data-science-numpy-pandas-exercises/?couponCode=FREEDROP9",
-      "clean_url": "https://www.udemy.com/course/python-for-data-science-numpy-pandas-exercises/"
+      "id": "3",
+      "name": "Python for Data Science, AI & Development",
+      "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/fc/c1b8dfbac740999b6256aca490de43/Python-Image.jpg?auto=format%2Ccompress%2C%20enhance&dpr=1&w=265&h=216&fit=crop&q=50",
+      "duration": "1 to 6 Months",
+      "price": 25999,
+      "seats": 100,
+      "topics": [
+        "Python Programming",
+        "Data Science"
+      ],
+      "subtopics": [
+        "Numpy",
+        "Pandas"
+      ]
     },
     {
-      "name": "Learn Microsoft Flow",
-      "category": "Office Productivity",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRnXNiazl0SHo7wPTQe4uN9i4mbOZLMD2Rtw&s",
-      "actual_price_usd": 0,
-      "sale_price_usd": 0,
-      "sale_end": "2024-07-25T04:00:42.498000",
-      "description": "Linear Algebra refresher for machine learning. Basics + Python implementation – Free Course",
-      "url": "https://www.udemy.com/course/linear-algebra-basics-for-machine-learning/",
-      "clean_url": "https://www.udemy.com/course/linear-algebra-basics-for-machine-learning/"
+      "id": "4",
+      "name": "Build a free website with WordPress",
+      "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/da/c8df3880a940c8a4bb5e7467eb202a/wordpress_logo.png?auto=format%2Ccompress%2C%20enhance&dpr=1&w=265&h=216&fit=crop&q=50",
+      "duration": "1 to 2 Hours Daily for 7 Days",
+      "price": 1599,
+      "seats": 100,
+      "topics": [
+        "Website Building"
+      ],
+      "subtopics": [
+        "WordPress Basics",
+        "Themes"
+      ]
     },
     {
-      "name": "Flask Framework",
-      "category": "IT & Software",
-      "image": "https://img-c.udemycdn.com/course/480x270/3330326_a986.jpg",
-      "actual_price_usd": 49.99,
-      "sale_price_usd": 0,
-      "sale_end": "2024-07-25T03:44:00",
-      "description": "Python,Flask Framework And Django Course For Beginners, Python Complete Course With Django And Flask Frameworks",
-      "url": "https://www.udemy.com/course/python-and-flask-and-django-course-for-beginners/?couponCode=4D04D53FF078618A3241",
-      "clean_url": "https://www.udemy.com/course/python-and-flask-and-django-course-for-beginners/"
+      "id": "5",
+      "name": "Business Analysis & Process Management",
+      "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/59/630408b17e41429a019ada61f22bc8/Courses-Project-images-06.png?auto=format%2Ccompress%2C%20enhance&dpr=1&w=265&h=216&fit=crop&q=50",
+      "duration": "1 Month",
+      "price": 6999,
+      "seats": 100,
+      "topics": [
+        "Business Analysis"
+      ],
+      "subtopics": [
+        "Process Management",
+        "Data Analysis"
+      ]
     },
     {
-      "name": "Numpy For Data Science",
-      "category": "Development",
-      "image": "https://img-c.udemycdn.com/course/480x270/5429576_b2e8.jpg",
-      "actual_price_usd": 39.99,
-      "sale_price_usd": 0,
-      "sale_end": "2024-07-25T02:00:00",
-      "description": "Numpy means Numerical Python. In this course, you will learn about the Numpy Library in Python Programming Language",
-      "url": "https://www.udemy.com/course/python-numpy-exercises/?couponCode=NUMPY_FREE_JULY19",
-      "clean_url": "https://www.udemy.com/course/python-numpy-exercises/"
+      "id": "6",
+      "name": "Google Ads for Beginners",
+      "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/d5/3e32a0a1d544c08ad1f6ee13be3f75/Paid-Media---April-2020-Recap-6-.jpg?auto=format%2Ccompress%2C%20enhance&dpr=1&w=265&h=216&fit=crop&q=50",
+      "duration": "1 Month",
+      "price": 8999,
+      "seats": 100,
+      "topics": [
+        "Google Ads"
+      ],
+      "subtopics": [
+        "Campaign Setup",
+        "Ad Optimization"
+      ]
     },
     {
-      "name": "Ace the Python ",
-      "category": "IT & Software",
-      "image": "https://img-c.udemycdn.com/course/480x270/6079513_af04.jpg",
-      "actual_price_usd": 19.99,
-      "sale_price_usd": 0,
-      "sale_end": "2024-07-25T14:43:00",
-      "description": "Master Python  with PCEP Python Certification Practice Tests. Get  certification you need to boost your career.",
-      "url": "https://www.udemy.com/course/ace-the-python-pcep-30-02-exam-2024-mock-test-series-1/?couponCode=F4BA660D6968CA8A6F4A",
-      "clean_url": "https://www.udemy.com/course/ace-the-python-pcep-30-02-exam-2024-mock-test-series-1/"
+      "id": "7",
+      "name": "Cybersecurity for Everyone",
+      "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/c8/5bae18bb5d475d926526e6e8ac3cc6/maryland-cybersecurity-for-everyone-1-.png?auto=format%2Ccompress%2C%20enhance&dpr=1&w=265&h=216&q=50&fit=crop",
+      "duration": "21 Days",
+      "price": 0,
+      "seats": 100,
+      "topics": [
+        "Cybersecurity Basics"
+      ],
+      "subtopics": [
+        "Threats",
+        "Protection"
+      ]
     },
     {
-      "name": "Complete Python s",
-      "category": "Development",
-      "image": "https://img-c.udemycdn.com/course/480x270/4992432_ef17_3.jpg",
-      "actual_price_usd": 74.99,
-      "sale_price_usd": 0,
-      "sale_end": "2024-07-25T17:47:00",
-      "description": "Complete Python 2024 For Absolute Beginners . Build a complete understanding of Python ",
-      "url": "https://www.udemy.com/course/complete-python-2023-for-absolute-beginners/?couponCode=C0B6EB785CF45DF7F9D2",
-      "clean_url": "https://www.udemy.com/course/complete-python-2023-for-absolute-beginners/"
+      "id": "8",
+      "name": "Google IT Automation with Python Professional Certificate",
+      "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/6f/2a0dbe91f04e2b9ce48fabb56f161f/1060x596_GCC-photos_Brandon.png?auto=format%2Ccompress%2C%20enhance&dpr=1&w=320&h=180&fit=crop&q=50&crop=faces",
+      "duration": "3 to 6 Months",
+      "price": 17999,
+      "seats": 100,
+      "topics": [
+        "IT Automation",
+        "Python"
+      ],
+      "subtopics": [
+        "Scripting",
+        "Automation Tools"
+      ]
     },
     {
-      "name": "C++ s",
-      "category": "C++ Programming Languages",
-      "image": "https://img-c.udemycdn.com/course/480x270/4391676_c2dc_7.jpg",
-      "actual_price_usd": 84.99,
-      "sale_price_usd": 0,
-      "sale_end": "2024-07-26T09:13:00",
-      "description": "*Get the Official Certificate after Completing the Course Welcome to the one of the  BEST  C++  course ",
-      "url": "https://www.udemy.com/course/c-programming-for-everyone/?couponCode=2024_OCSALY_BEST",
-      "clean_url": "https://www.udemy.com/course/c-programming-for-everyone/"
+      "id": "9",
+      "name": "Applied Data Science with Python Specialization",
+      "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/c8/8d6df01eb311e6b5f5f786b289d8ba/pythondatascience_specialization_final.png?auto=format%2Ccompress%2C%20enhance&dpr=1&w=265&h=216&fit=crop&q=50",
+      "duration": "3 to 6 Months",
+      "price": 15999,
+      "seats": 100,
+      "topics": [
+        "Data Science",
+        "Python"
+      ],
+      "subtopics": [
+        "Data Analysis",
+        "Machine Learning"
+      ]
     },
     {
-      "name": "Gemini AI",
-      "category": "Data Science",
-      "image": "https://img-c.udemycdn.com/course/750x422/6069639_51c3_4.jpg",
-      "actual_price_usd": 0,
-      "sale_price_usd": 0,
-      "sale_end": "2024-07-26T22:04:44.566000",
-      "description": "Google’s Gemini AI Course for Beginners with Python Unlock the potential of Google’s Gemini AI model ",
-      "url": "https://www.udemy.com/course/gemini-ai-course-for-beginners/",
-      "clean_url": "https://www.udemy.com/course/gemini-ai-course-for-beginners/"
+      "id": "10",
+      "name": "Meta Front-End Developer Professional Certificate",
+      "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/ed/d25c0d25114924a34754928dbf8273/Front-end-dev-ProCert.png?auto=format%2Ccompress%2C%20enhance&dpr=1&w=265&h=216&q=50&fit=crop",
+      "duration": "3 to 6 Months",
+      "price": 45900,
+      "seats": 100,
+      "topics": [
+        "Front-End Development"
+      ],
+      "subtopics": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "id": "11",
+      "name": "IBM Full Stack Software Developer Professional Certificate",
+      "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/collections/product-images/ibm-full-stack-cloud-developer.jpeg?auto=format%2Ccompress%2C%20enhance&dpr=1&w=265&h=216&q=50&fit=crop",
+      "duration": "3 to 6 Months",
+      "price": 59000,
+      "seats": 100,
+      "topics": [
+        "Full Stack Development"
+      ],
+      "subtopics": [
+        "Front-End",
+        "Back-End"
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Google UX Design Professional Certificate",
+      "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/f9/f48728d31a4af3b8eba082c0b4cb18/1060x596_GCC-photos-1-.png?auto=format%2Ccompress%2C%20enhance&dpr=1&w=320&h=180&q=50&fit=crop&crop=faces",
+      "duration": "3 to 6 Months",
+      "price": 45900,
+      "seats": 100,
+      "topics": [
+        "UX Design"
+      ],
+      "subtopics": [
+        "User Research",
+        "Prototyping"
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Meta Back-End Developer Professional Certificate",
+      "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/1e/d2f5a0dc494722980faf74d9fa8fc8/Back-end-dev-ProCert.jpg?auto=format%2Ccompress%2C%20enhance&dpr=1&w=265&h=216&q=50&fit=crop",
+      "duration": "4 to 6 Months",
+      "price": 60999,
+      "seats": 100,
+      "topics": [
+        "Back-End Development"
+      ],
+      "subtopics": [
+        "Node.js",
+        "Databases"
+      ]
     }
   ]
 }
